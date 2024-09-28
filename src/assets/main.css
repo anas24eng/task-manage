@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+body {
+  background: #f2f2f2;
+  color: #444;
+  margin: 0;
+}
+body * {
+  font-family: "Poppins";
+}
+
+/* header */
+header {
+  text-align: center;
+  background: #e7e7e7;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  max-width: 60px;
+  transform: rotate(-10deg);
+}
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  padding-top: 25px;
+  margin-left: 15px;
+  color: #777;
+  transform: rotate(2deg);
+}
+/* task-list */
+
+
+.task-list {
+max-width: 640px;
+margin: 20px auto;
+
+}
+.task {
+  padding: 8px 20px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  display: flex;
+  box-shadow: 4px,6px, 8px rgb(0,0 green,0,0.5 blue);
+}
+.task h3, .task .icons {
+  display: inline-block;
+}
+.task .icons {
+text-align: right;
+}
+.task i{
+  font-size: 1.4em;
+  cursor: pointer;
+  margin-left: 6px;
+  color: #bbb;
+}
+.filter {
+  max-width: 640px;
+  margin: 20px auto;
+  text-align: right;
+}
+.filter button {
+  display: inline-block;
+  margin-left: 10px;
+  border: 2px solid #555;
+  background: #fff;
+  padding: 4px 10px;
+  border-radius: 7px;
+  font-size: 1em;
+  font-weight: 10px;
+
+}
+
+.filter button:hover {
+  background-color: #777;
+  color: aqua;
+}
+.Task-form { 
+  background-color: #e7e7e7;
+  padding: 30px 0px;
+  
+}
+form { 
+  max-width: 400px;
+  display: grid;
+  margin: 0px auto;
+  gap: 10px;
+  grid-template-columns: 3fr 1fr;
+}
+form input { 
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+  border: 0px;
+  font-size: 1em;
+}
+form button {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: gold;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+
+}
